@@ -1,0 +1,33 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#header{
+  display:flex;
+  color: rgb(33, 195, 49);
+}
+.display{
+  color: rgb(250, 92, 7);
+  font-size: 25px;
+}
+
+.play_ground{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+
+button {
+  height: 100px;
+  /* width: 50px; */
+  font-size: 36px;
+  background-color: rgb(172, 170, 170);
+  
+}
